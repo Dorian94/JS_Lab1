@@ -19,7 +19,9 @@ var city = "Paris";
 
 /* THis code print firstName,favouriteColor,favourtieFood and city in three different sentence.
 
-8.*/ console.log(firstName,favouriteColor,favourtieFood + " " + city);
+8.*/ console.log(firstName);
+console.log(favouriteColor);
+console.log(favourtieFood, city);
 
 /*9. see up here*/ 
 
@@ -35,8 +37,4 @@ var five = "blue";
 var six = "indigo";
 var seven = "violet";
 
-/* 11. */ console.log(phrase +  one + two + three + four + five + six + seven + endingPhrase); 
-
-
-
-
+/* 11. */ console.log(phrase,one + ', ' + two + ', ' + three + ', ' + four + ', ' + five + ', ' + six + ', ' + seven + ' ' + endingPhrase); 
